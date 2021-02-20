@@ -1,0 +1,19 @@
+/* VOTRE CSS ICI */
+
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media (max-width: 800px ) {
+    .menu {
+        justify-content: space-between;
+    }
+}
+
+@media (max-width : 500px) {
+    .menu {
+        flex-direction: column;
+    }
+}
